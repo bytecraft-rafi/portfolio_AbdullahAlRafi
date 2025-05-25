@@ -1,6 +1,6 @@
 <h2 align="center">
   Personal Portfolio <br/>
-  <a target="_blank" href="https://your-portfolio-url.vercel.app/" rel="noreferrer">rafeezabir-7410</a>
+  <a target="_blank" href="https://your-portfolio-url.vercel.app/" rel="noreferrer">Abdullah Al Rafi</a>
 </h2>
 
 <br/>
