@@ -176,10 +176,27 @@ const Blog = () => (
     color: "#f2f2f2",
     textAlign: "center",
   }}>
-    <h1 style={{ fontSize: "2.5rem", marginBottom: "1.5rem" }}>Blog</h1>
+    <h1 style={{
+      fontSize: "4.2rem",
+      color: "#9067C6",
+      marginBottom: "1.5rem",
+      transition: "font-size 0.3s ease"
+    }}
+    className="blog-title"
+    >
+      Blog
+    </h1>
     <p style={{ fontSize: "1.2rem" }}>
       🚧 This section is still under development. Please check back soon for new posts! 🚧
     </p>
+
+    <style>{`
+      @media (max-width: 650px) {
+        .blog-title {
+          font-size: 3.4rem !important;
+        }
+      }
+    `}</style>
   </div>
 );
 
